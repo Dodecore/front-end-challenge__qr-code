@@ -1,5 +1,7 @@
 html{
     overflow: hidden;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
 }
 body{
     background-color: hsl(212, 45%, 89%);
@@ -7,13 +9,6 @@ body{
     align-items: center;
     justify-items: center;
     height: 100vh;
-    margin: 0;
-}
-.hero-container{
-    background-color: white;
-    width: 200px;
-    height: auto;
-    border-radius: 5px;
 }
 
 .qr-container{
@@ -22,30 +17,68 @@ body{
     justify-items: center;
 }
 
-.img-container{
-    width: 90%;
-    margin-top: 10px;
-}
-
 img{
     border-radius: 5px;
-}
-
-h2{
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 0px;
-    padding: 0px 10px 0px 10px;
-}
-
-p{
-    text-align: center;
-    font-size: 10px;
-    color: hsl(220, 15%, 55%);
-    padding: 0px 15px 10px 15px;
 }
 
 .attribution{
     position: absolute;
     bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .hero-container{
+        background-color: white;
+        width: 200px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .img-container{
+        width: 90%;
+        margin-top: 10px;
+    }
+    
+    h2{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 0px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 10px;
+        color: hsl(220, 15%, 55%);
+        padding: 0px 15px 10px 15px;
+    }
+}
+
+@media (min-width:1025px) {
+    .hero-container{
+        background-color: white;
+        width: 350px;
+        height: 500px;
+        border-radius: 5px;
+    }
+    
+    .img-container{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    p{
+        text-align: center;
+        font-size: 15px;
+        color: hsl(220, 15%, 55%);
+        padding: 0px 20px 10px 20px;
+    }
 }
