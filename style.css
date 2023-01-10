@@ -19,7 +19,7 @@ body{
 }
 
 img{
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .attribution{
@@ -32,7 +32,7 @@ img{
         background-color: white;
         width: 200px;
         height: auto;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     .img-container{
@@ -60,7 +60,7 @@ img{
         background-color: white;
         width: 350px;
         height: 500px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
     
     .img-container{
